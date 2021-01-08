@@ -1,0 +1,9 @@
+First attempt to solve the problem in Python: 
+1. Transverse through each line using while loop 
+2. Append character in each line into an array 
+3. Now, transverse through this newly created array to obtain number of minimum and maximum that the given letter is allowed to appear
+4.while transvering through this array, I also want to know at what index the passwords starts to show 
+5.Create another array to store just the password 
+6.Transverse through this second array and count how many times the given letter appear 
+7.If the times that the given letter shows up is in the allowance range, then increase the count of the right password by 1. 
+The reason I choose Python for this problem is because of the incomplexity of the readline and readfile that python has. 
