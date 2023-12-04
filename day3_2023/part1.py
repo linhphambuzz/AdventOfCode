@@ -19,8 +19,8 @@ def update_dict(input):
     return numbers,symbols
 
 """get all neigrbor surrounding numbers"""
-getNeighbor= lambda row,col,len:[(row-1,y) for y in range(col-1,len+1)] + \
-                                [(row+1,y) for y in range(col-1,len+1)] +  [(row,col-1),(row,len)]
+getNeighbor= lambda row,s_idx,end_idx:[(row-1,y) for y in range(s_idx-1,end_idx+1)] + \
+                                [(row+1,y) for y in range(s_idx-1,end_idx+1)] +  [(row,s_idx-1),(row,s_idx+1)]
    
                                 
 def part1(input):
@@ -28,12 +28,13 @@ def part1(input):
     numbers,symbols=update_dict(input)
 
     for n in numbers:
-        row,(col,len)=n  
-        if any(symbols.get(idx) for idx in getNeighbor(row,col,len)):
+        row,(col,end_idx)=n  
+        if any(symbols.get(idx) for idx in getNeighbor(row,col,end_idx)):
             result+=int(numbers[n])
 
     return result
 
 
 
-print(part1(input))
+if __name__=="__main__":
+    print(part1(input))
