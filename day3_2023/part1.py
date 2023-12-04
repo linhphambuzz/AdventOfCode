@@ -20,7 +20,7 @@ def update_dict(input):
 
 """get all neigrbor surrounding numbers"""
 getNeighbor= lambda row,s_idx,end_idx:[(row-1,y) for y in range(s_idx-1,end_idx+1)] + \
-                                [(row+1,y) for y in range(s_idx-1,end_idx+1)] +  [(row,s_idx-1),(row,s_idx+1)]
+                                [(row+1,y) for y in range(s_idx-1,end_idx+1)] +  [(row,s_idx-1),(row,end_idx)]
    
                                 
 def part1(input):
