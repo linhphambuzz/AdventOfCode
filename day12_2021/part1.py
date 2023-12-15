@@ -1,6 +1,6 @@
 from collections import defaultdict 
 caves=defaultdict(set)
-f=open("aoc12.txt").read().split("\n")
+f=open("test2.txt").read().split("\n")
 for line in f:
     node1,node2=line.split('-')
     caves[node1].add(node2)
@@ -21,12 +21,12 @@ def dfs(visited,node,path):
         for nb in caves[node]:
             dfs(visited.copy(),nb,path[:])
 
-      
-dfs(set(),'start',[])       
-#debug
-for p in ppath:
-    if p[-1]=='end':
-        #print(p)
-        cnt+=1
-print(cnt)
+
+if __name__=="__main__":     
+    dfs(set(),'start',[])       
+    for p in ppath:
+        if p[-1]=='end':
+            print(p)
+            cnt+=1
+    print(cnt)
 
