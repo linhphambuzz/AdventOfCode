@@ -1,4 +1,3 @@
-from heapq import heappush,heappop
 
 input=open('aoc11.txt').readlines()
 matrix= [[l for l in line.strip()] for line in input]
