@@ -1,19 +1,17 @@
 <h1 align=center> 🎄 ADVENT OF CODE 🎄</h1>
 
-I use AOC to practice Data Structures and Algorithms (DSA) in Python. 
-Below is a comprehensive list of what I've learn from doing AOC 2022 and 2023. 
+I solved problems from Advent of Code to learn and practice  Data Structures and Algorithms (DSA) in Python. Categorized problems listed below summarize my learning experiences. 
 
+> Puzzles that are not listed under any category were solved using the combinations of different Data Structures. Categorized days listed below are only primary examples of each corresponding category. 
 
-**_NOTE:_** Puzzles that are not listed under any category were solved using the combinations of different Data Structures. Categorized days listed below are only primary examples of each corresponding category. 
-
- ## 🔖 2022 ##
-* List: *list is used in almost every puzzle*
+ ## 🎅 2022 
+* List: 
 
     * [day 3](./2022/day3_2022/AOC_day3.py)
     * [day 4](./2022/day4_2022/day4.py)
     * [day 6](./2022/day6_2022/day6.py)
     * [day 18](./2022/day18_2022/day18part1.py)
-    * ... etc
+    * *list/array is used in almost every puzzle*
 
 * Queue, Stacks: 
     * [day 5](./2022/day5_2022/day5.py)
@@ -60,7 +58,7 @@ Below is a comprehensive list of what I've learn from doing AOC 2022 and 2023.
     * [day 21](./2022/day21_2022/part2.py) 
 
 
- ## 🔖 2023 ##
+ ## ⛄ 2023 
 
 * Flood fill
     * [day 18](./2023/day18_2023/part1.py)
@@ -91,6 +89,9 @@ Below is a comprehensive list of what I've learn from doing AOC 2022 and 2023.
     * [day 2](./2023/day2_2023/part1.py)
     * [day 3](./2023/day3_2023/part1.py)
 
+* Dynamic Programming 
+    * [day 12](./2023/day12_2023/part1.py)
+    * [day 23](./2023/day23_2023/part1.py)
 
 * Breath First Search 
     * [day 10](./2023/day10_2023/part1.py)
@@ -102,21 +103,26 @@ Below is a comprehensive list of what I've learn from doing AOC 2022 and 2023.
 * Depth First Search 
     * [day 23](./2023/day23_2023/part1.py)
     
-* Dynamic Programming 
-    * [day 12](./2023/day12_2023/part1.py)
-    * [day 23](./2023/day23_2023/part1.py)
 
 
-## Other learning experiences
-<p> Besides DSA, solving AOC also requires some math. These problems listed below are few examples of the math logics that I used</p>
 
-* matrix rotation, matrix transpose: [day 5 2022](./2022/day5_2022/day5.py),[day 14 2023](./2023/day14_2023/part1.py)
+## ❄️ Math
+<p> Besides DSA, solving AOC also requires math. Listed below is a few examples</p>
 
-* complex numbers (to represent vectors): [day 9 2022](./2022/day9_2022/day9.py), [day 17 2022](./2022/day17_2022/day17_part1.py)
+* Matrix rotation, Matrix transpose: [day 5 2022](./2022/day5_2022/day5.py),[day 14 2023](./2023/day14_2023/part1.py)
 
-* linear algebra: [day 15 2022](./2022/day15_2022/README.md), [day 6 2023](./2023/day6_2023/part2.py)
+* Complex numbers (to represent vectors): [day 9 2022](./2022/day9_2022/day9.py), [day 17 2022](./2022/day17_2022/day17_part1.py)
 
-* modulus
+* Linear algebra: [day 15 2022](./2022/day15_2022/README.md), [day 6 2023](./2023/day6_2023/part2.py)
+
+* Modulus
+
+## 🎈 Others 
+
+* Syntax: lambda, match-case statement, zip, enumerate, eval,tuple,map
+* Module: collections(defaultdict,deque,namedtuple,Counter), itertools(groupby,permutation,cycle),re  
+
+
 
 
 
