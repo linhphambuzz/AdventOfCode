@@ -110,10 +110,24 @@ I solved problems from Advent of Code to learn and practice  Data Structures and
 
 * **Modulus** :[day 14 2023](./2023/day14_2023/part2.py)
 
-## 🎈 Others 
+## 🚀 Others 
 
-* **Syntax**: lambda, match-case statement, zip, enumerate, eval,tuple,map, any, all, join,sorted,
-* **Modules**: *collections*(defaultdict,deque,namedtuple,Counter), *itertools*(groupby,permutation,cycle),*re* , *math*
+* **Syntax**: 
+    - lambda 
+    - match-case statement 
+    - zip
+    - enumerate
+    - eval
+    - reduce
+    - map
+    - any, all
+    - join
+    - sorted
+* **Modules**: 
+    - *collections*: defaultdict, deque, namedtuple, Counter 
+    - *itertools*: groupby, permutation, cycle 
+    - *re* (regex)
+    - *math* : lcm, sqrt, floor, ceil, remainder 
 
 
 
