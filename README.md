@@ -5,13 +5,13 @@ I solved problems from Advent of Code to learn and practice  Data Structures and
 > Puzzles that are not listed under any category were solved using the combinations of different Data Structures. Categorized days listed below are only primary examples of each corresponding category. 
 
 ## 🎅 2022 
-* **List**
+* **Array**
 
     * [day 3](./2022/day3_2022/AOC_day3.py)
     * [day 4](./2022/day4_2022/day4.py)
     * [day 6](./2022/day6_2022/day6.py)
     * [day 18](./2022/day18_2022/day18part1.py)
-    * *list/array is used in almost every puzzle*
+    * *array is used in almost every puzzle*
 
 * **Queue, Stacks** 
     * [day 5](./2022/day5_2022/day5.py)
@@ -112,8 +112,22 @@ I solved problems from Advent of Code to learn and practice  Data Structures and
 
 ## 🎈 Others 
 
-* **Syntax**: lambda, match-case statement, zip, enumerate, eval,tuple,map, any, all, join,sorted,
-* **Modules**: *collections*(defaultdict,deque,namedtuple,Counter), *itertools*(groupby,permutation,cycle),*re* , *math*
+* **Syntax**:
+    - lambda
+    - match-case statement
+    - zip
+    - enumerate
+    - eval
+    - map
+    - reduce
+    - any, all
+    - join
+    - sorted, sort
+* **Modules**: 
+    - *collections*: defaultdict, deque, namedtuple, Counter
+    - *itertools*: groupby, permutation, cycle
+    - *re* (i.e:regex)
+    - *math* : lcm, pow, sqrt, ceil, floor 
 
 
 
