@@ -68,6 +68,7 @@ I solved problems from Advent of Code to learn and practice  Data Structures and
 
 * **Dijkstra's**
     * [day 21](./2023/day21_2023/part12.py)
+    * [day 17](./2023/day17_2023/part1.py)
     
 
 * **Dictionaries, Hashmap** 
